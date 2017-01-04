@@ -30,7 +30,7 @@ http://horriblesubs.info/shows/3-gatsu-no-lion
 Number of 1080p magnets found: 12
 ```
 
-Since the script relies on `pyautogui` pressing enter to automate adding torrents to your client
+Since the script relies on `pyautogui` pressing enter to automate adding torrents to your client, please wait without touching your computer until the script has finished.
 
 ## Motivation
 
