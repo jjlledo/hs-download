@@ -17,7 +17,7 @@ The script currently assumes the following things:
 
 ## Usage
 
-Make sure you have installed all the dependencies, putting chromedriver in your desktop.
+Make sure you have installed all the dependencies, putting chromedriver in the same folder as the script.
 
 Currently you just have to use:
 
