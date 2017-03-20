@@ -13,11 +13,8 @@ driver = webdriver.Chrome(executable_path=chromedriver_path,
                           chrome_options=chrome_options)
 
 try:
-    url = input("Paste url of show to download:\n")
-    print()
-    driver.get(url)
-
-    WebDriverWait(driver, 5).until(EC.title_contains("HorribleSubs"))
+    driver.get("http://horriblesubs.info")
+    continue_dl = input("Navigate to the desired show URL and press ENTER")
 
     buttons = driver.find_elements_by_xpath("//a[text()='1080p']")
 
