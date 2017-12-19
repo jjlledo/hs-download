@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import os
 import pyautogui
 from selenium import webdriver
@@ -7,8 +9,8 @@ import time
 
 chromedriver_path = os.getcwd() + "/chromedriver"
 chrome_options = webdriver.ChromeOptions()
-local_state = {"protocol_handler.excluded_schemes.magnet" : False}
-chrome_options.add_experimental_option("localState",local_state)
+preferences = {"protocol_handler.excluded_schemes.magnet" : False}
+chrome_options.add_experimental_option("prefs", preferences)
 driver = webdriver.Chrome(executable_path=chromedriver_path,
                           chrome_options=chrome_options)
 
