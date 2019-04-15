@@ -1,5 +1,7 @@
 # hs-download
 
+**Update**: This script is for the most part a proof of concept and a slight pain to install. If anyone wants me to, I'll update the repository to become a proper Python package.
+
 Python script to download anime episodes from HorribleSubs. You supply the show's full URL and all the episodes are added to your torrent client in ascending order after confirming the download.
 
 The script currently assumes the following things:
